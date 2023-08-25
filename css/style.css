@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ACE4E8;
+}
+
+/* HEADER */
+
+header h1{
+    text-align: center;
+}
+
+.navbar-todos ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #F0996C;
+}
+
+.navbar-todos a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.875rem;
+    display: block;
+    padding: 0.625rem .625rem;
+}
+
+.navbar-todos li{
+    display: inline-block;
+    width: 19.83%;
+    padding: 0.3125rem 0.625rem;
+    text-align: center;
+    color: black;
+}
+
+.navbar-todos li:hover{
+    background-color: #3D858A;
+    color: black;
+}
+
+
+
+/* FOOTER */
+
+.container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.redes-general {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.redes-el-hotel{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.redes-general img {
+    width: 50px; 
+    margin-bottom: .625rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: .625rem;
+    margin-left: 42%;
+}
+
+.copyright p {
+    font-size: 2.1875rem;
+}
+
+
+
+
+
+/* HOTEL GERMARGO */
+
+/*-------- MAIN -----------*/
+.foto-principal{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.foto-principal img{
+    width: 120rem;
+    height: 40rem;
+    object-fit: cover;
+}
+
+
+
+.texto-principal{
+    color: #3D858A;
+    font-style: italic;
+    text-align: center;
+    font-size: 2.615rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* EL HOTEL */
+
+
+/*-------- MAIN -----------*/
+
+.imagen-el-hotel{
+    float: left;
+}
+
+.texto-el-hotel{
+    display: flex;
+    color: #BD1A7D;
+    text-align: center;
+    margin: 0.625rem 0.625rem 0.625rem 0.625rem;
+    font-style: italic;
+    font-size: 2.615rem;
+    justify-content: center;
+    padding: 3.125rem;
+}
+
+.img-texto-el-hotel{
+    margin: 6.25rem 0rem 6.25rem 0rem;
+}
+
+
+
+/* FOTOS Y VIDEOS */
+
+
+/*-------- MAIN -----------*/
+
+.fotos-general{
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagen-1{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+
+.imagen-2{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+}
+
+.imagen-3{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+
+
+
+.video-general iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 20rem;
+    margin-left: 35%;
+}
+
+
+
+/* UBICACIÓN */
+
+
+/*-------- MAIN -----------*/
+
+.mapa{
+    margin: .625rem .625rem .625rem .625rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* CONTACTO */
+
+
+/*-------- MAIN -----------*/
+
+body h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.25rem;
+}
+
+.formulario{
+    font-size: 1.5rem;
+    margin: auto;
+    background-color: white;
+    width: 31.25rem;
+}
+
+.boton-enviar{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 8rem;
+    height: 3rem;
+}
+
+
+.cuadro-consulta{
+    width: 31.25rem;
+    height: 10rem;
+}
+
