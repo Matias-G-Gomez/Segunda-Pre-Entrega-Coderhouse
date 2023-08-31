@@ -132,6 +132,7 @@ header h1{
 /* HOTEL GERMARGO */
 
 /*-------- MAIN -----------*/
+
 .foto-principal{
     background-size: cover;
     display: flex;
@@ -164,6 +165,7 @@ header h1{
 
 /*-------- MAIN -----------*/
 
+/*
 .grid-img-texto{
     display: grid;
 
@@ -188,6 +190,14 @@ header h1{
     margin: 6.25rem 0rem 6.25rem 0rem;
 }
 
+*/
+.card-text{
+    color: #BD1A7D;
+}
+
+.card{
+    background-color: #ACE4E8;
+}
 
 
 /* FOTOS Y VIDEOS */
